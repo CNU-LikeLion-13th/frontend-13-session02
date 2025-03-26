@@ -1,6 +1,7 @@
 function mapWithCallback(num_array, Callback) {
   return Callback(num_array);
 }
+
 const double = (num_array) => {
   return num_array.map((element) => element * 2);
 };
