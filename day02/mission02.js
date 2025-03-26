@@ -3,11 +3,11 @@ function mapWithCallback(array, callback) {
 }
 
 function double (array){
-    return array.map((element) => element*element);
+    return array.map(element => element*element);
 }
 
 function addTen (array) {
-    return array.map((element) => element+10);
+    return array.map(element => element+10);
 }
 
 console.log(mapWithCallback([1, 2, 3], double));
