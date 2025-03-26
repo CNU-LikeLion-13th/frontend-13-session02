@@ -1,11 +1,17 @@
-let name = 'alice';
+let name = '김현서';
 
 function changeMessageFormat(name, callback) {
-    return callback(name);
+    let message = '안녕하세요, ' + callback(name) + '님'
+    console.log(message);
 }
 
 function toCapital(name) {
-    return name.toUpperCase()
+    return name.toUpperCase();
 }
 
-console.log(changeMessageFormat(name, toCapital));
+function toLowerCase(name) {
+    return name.toLowerCase();
+}
+
+changeMessageFormat(name, toCapital);
+changeMessageFormat(name, toLowerCase);
