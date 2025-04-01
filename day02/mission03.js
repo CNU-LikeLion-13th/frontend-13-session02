@@ -1,4 +1,4 @@
-let name = 'hyeonseo';
+let userName = 'hyeonseo';
 
 function formatName(name, callback) {
     message = callback(name);
@@ -6,13 +6,13 @@ function formatName(name, callback) {
 }
 
 function upperCase(name) {
-    return name.toUpperCase();
+    return userName.toUpperCase();
 }
 
 function greeting(name) {
-    return '안녕하세요, ' + name + '님';
+    return '안녕하세요, ' + userName + '님';
 }
 
-console.log(formatName(name, upperCase));
+console.log(formatName(userName, upperCase));
 
-console.log(formatName(name, greeting));
+console.log(formatName(userName, greeting));
