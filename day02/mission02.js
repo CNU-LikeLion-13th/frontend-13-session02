@@ -3,7 +3,7 @@ function mapWithCallback(array, callback) {
 }
 
 function double (array){
-    return array.map(element => element*element);
+    return array.map(element => element*2);
 }
 
 function addTen (array) {
