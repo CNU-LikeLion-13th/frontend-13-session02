@@ -5,3 +5,4 @@ let squaredNum = num.map(function(num){
 });
 
 console.log(squaredNum);
+

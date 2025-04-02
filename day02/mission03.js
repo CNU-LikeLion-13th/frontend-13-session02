@@ -14,3 +14,4 @@ console.log(formatName("kimminhee", upperCase));
 
 console.log(formatName("kimminhee", greeting));
 
+
