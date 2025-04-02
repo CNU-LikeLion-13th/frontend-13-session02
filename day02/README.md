@@ -4,9 +4,7 @@
 
 화살표 함수와 map() 메서드를 사용해서 만들어주세요!
 
-
-
-### 미션2. 콜백 함수로 숫자 변환하기 
+### 미션2. 콜백 함수로 숫자 변환하기
 
 mapWithCallback이라는 함수를 만들어보세요.
 이 함수는 숫자 배열과 콜백 함수를 받아서, 배열의 각 요소에 콜백 함수를 적용한 새 배열을 반환합니다.
@@ -19,7 +17,11 @@ console.log(mapWithCallback([1, 2, 3], double));
 
 console.log(mapWithCallback([1, 2, 3], addTen));
 
+console.log문은 다음과 같습니다!
 
+console.log(mapWithCallback([1, 2, 3], double));
+
+console.log(mapWithCallback([1, 2, 3], addTen));
 
 ### 미션3. 콜백 함수로 메서지 포맷 바꾸기
 
@@ -28,14 +30,8 @@ console.log(mapWithCallback([1, 2, 3], addTen));
 콜백 함수와 대문자로 바꾸는 메서드를 사용해서 만들어주세요!
 
 구현해야 하는 메서드는 다음과 같습니다.
+
 1. 이름을 대문자로 바꾸어 출력하는 메서드
 2. "안녕하세요, (입력한 글자)님" 형태로 바꾸어 출력하는 메서드
 
-
 - 모든 문제는 console.log 를 통해 출력해 확인할 수 있습니다.
-
-console.log문은 다음과 같습니다!
-
-console.log(formatName("본인 이름(소문자로)", upperCase));
-
-console.log(formatName("본인 이름(소문자로)", greeting));  
