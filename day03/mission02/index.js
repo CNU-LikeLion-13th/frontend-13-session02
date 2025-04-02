@@ -8,7 +8,7 @@ btn.addEventListener('mousedown', (e) => {
         box.textContent='휠';
     }
     else if(e.button===2){
-        bow.textContent='우클릭';
+        box.textContent='우클릭';
     }
 });
 
@@ -20,3 +20,4 @@ box.addEventListener("contextmouse", (e)=>{
     e.preventDefault();
 }
 );
+
