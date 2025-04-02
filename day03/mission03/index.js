@@ -1,8 +1,17 @@
 const hoverBox = document.querySelector("#hoverBox");
+hoverBox.onHover = () => {
+  hoverBox.textContent = "hover 중!";
+  hoverBox.style.backgroundColor = "orange";
+};
+
+hoverBox.outHover = () => {
+  hoverBox.textContent = "Hover me";
+  hoverBox.style.backgroundColor = "gray";
+};
 
 document
   .querySelector("#hoverBox")
-  .addEventListener("mouseover", () => (hoverBox.textContent = "hover 중!"));
+  .addEventListener("mouseover", () => hoverBox.onHover());
 document
   .querySelector("#hoverBox")
-  .addEventListener("mouseout", () => (hoverBox.textContent = "Hover me"));
+  .addEventListener("mouseout", () => hoverBox.outHover());
