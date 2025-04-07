@@ -37,5 +37,5 @@ console.log(mapWithCallback([1, 2, 3], addTen));
 console.log문은 다음과 같습니다!
 
 console.log(formatName("본인 이름(소문자로)", upperCase));
+console.log(formatName("본인 이름(소문자로)", greeting));  
 
-console.log(formatName("본인 이름(소문자로)", greeting));
