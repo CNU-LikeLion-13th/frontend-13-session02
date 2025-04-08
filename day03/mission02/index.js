@@ -1,7 +1,6 @@
 const bin = document.querySelector("#box");
 
 bin.addEventListener('mousedown', function(e) {
-    e.preventDefault();
     let current
     switch (e.button) {
         case 0:
@@ -15,4 +14,8 @@ bin.addEventListener('mousedown', function(e) {
             break;
     }
     bin.textContent = current;
+});
+
+bin.addEventListener(('contextmenu'), function (e) {
+    e.preventDefault();
 });
