@@ -1,12 +1,14 @@
 document.querySelector("#colorBtn").addEventListener("click", function () {
-  const BGcolor = document.querySelector("body").style.backgroundColor;
-  if (BGcolor === "") {
-    BGcolor = "blue";
+  const body = document.querySelector("body");
+  const BGcolor = body.style.backgroundColor;
+
+  if ((BGcolor === "") | (BGcolor === "white")) {
+    body.style.backgroundColor = "blue";
   }
   if (BGcolor === "blue") {
-    BGcolor = "red";
+    body.style.backgroundColor = "red";
   }
   if (BGcolor === "red") {
-    BGcolor = "white";
+    body.style.backgroundColor = "white";
   }
 });
