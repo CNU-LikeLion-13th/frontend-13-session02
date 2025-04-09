@@ -4,7 +4,7 @@ btn.onclick=function(){
     document.body.style.backgroundColor= 'lightblue';
 }
 
-btn.addEventListenenr('click',()=>{
+btn.addEventListener('click',()=>{
     document.body.style.backgroundColor= 'lightblue';
 
 });

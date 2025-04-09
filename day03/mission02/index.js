@@ -16,7 +16,7 @@ box.addEventListener("mouseup", ()=>{
     box.textContent="클릭해보세요";
 });
 
-box.addEventListener("contextmouse", (e)=>{
+box.addEventListener("contextmenu", (e)=>{
     e.preventDefault();
 }
 );
