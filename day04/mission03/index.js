@@ -35,10 +35,12 @@ divideButton.addEventListener("click", () => {
 equalButton.addEventListener("click", () => {
     try {
         var result = eval(display.value);
-        if (result == "Infinity") alert("0으로 나눌 수 없습니다.");
+        if (!result) alert("계산식이 잘못되었습니다.");
+        else if (result == "Infinity") alert("0으로 나눌 수 없습니다.");
         else display.value = result;
     } catch {
         alert("올바른 값을 입력해주세요.");
+        displayClear();
     }
 });
 function operatorClicked(oper) {
